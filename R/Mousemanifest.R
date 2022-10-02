@@ -91,6 +91,7 @@ library(here)
 
 ##Read in excel sheet with probe info
 manifestFile <- "../../../MouseMethylation-12v1-0_A2.csv"
+stopifnot(file.exists(manifestFile))
 
 maniTmp <- read.manifest.285k(manifestFile)
 
