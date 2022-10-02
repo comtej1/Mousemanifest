@@ -109,3 +109,4 @@ Mousemanifest <- do.call(IlluminaMethylationManifest,
 save(Mousemanifest, compress = "xz",
      file = here("data", "Mousemanifest.rda"))
 
+git config pull.rebase false
