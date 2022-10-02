@@ -106,3 +106,6 @@ Mousemanifest <- do.call(IlluminaMethylationManifest,
                                                      TypeSnpII = manifestList$TypeSnpII,
                                                      annotation = "IlluminaMousemanifest"))
 
+save(Mousemanifest, compress = "xz",
+     file = here("data", "Mousemanifest.rda"))
+
