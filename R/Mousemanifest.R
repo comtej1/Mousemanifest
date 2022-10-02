@@ -90,7 +90,7 @@ library(tidyverse)
 library(here)
 
 ##Read in excel sheet with probe info
-manifestFile <- here("MouseMethylation-12v1-0_A2.csv")
+manifestFile <- "../../../MouseMethylation-12v1-0_A2.csv")
 
 maniTmp <- read.manifest.285k(manifestFile)
 
