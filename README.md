@@ -35,3 +35,6 @@ objects: “objectNames” and “defaults” (both include “Locations”, “
   To create an minfi-compatible manifest, we extracted the “manifestList” object. From this, the final manifest was created
 using the function IlluminaMethylationManifest() with the TypeI, TypeII, TypeControl, TypeSnpI, TypeSnpII and with
 “IlluminaMousemanifest” as the annotation name.
+
+
+*****To use this package with minfi, you will need to change annotation title of your dataset to Mousemanifest.ilmn12.mm10 (i.e rgset@annotation[1] <- "Mouse" and rgset@annotation[2] <- "ilmn12.mm10").******
