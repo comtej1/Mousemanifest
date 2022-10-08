@@ -4,7 +4,7 @@ library(tidyverse)
 library(here)
 
 ##Read in excel sheet with probe info
-
+source("data/read.manifest.285k.R")
 manifestFile <- here("MouseMethylation-12v1-0_A2.csv")
 stopifnot(file.exists(manifestFile))
 
