@@ -32,7 +32,7 @@ objects: “objectNames” and “defaults” (both include “Locations”, “
 (includes array name, annotation name and the genome build) and “pkgName” (“Mouseanno.ilmn12.mm10”).
 
 ***Manifest***
-  To create an minfi-compatible manifest, we extracted the “manifestList” object. From this, the final manifest was created
+  To create a minfi-compatible manifest, we extracted the “manifestList” object. From this, the final manifest was created
 using the function IlluminaMethylationManifest() with the TypeI, TypeII, TypeControl, TypeSnpI, TypeSnpII and with
 “IlluminaMousemanifest” as the annotation name.
 
